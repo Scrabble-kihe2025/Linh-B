@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1753896691 source:c:\code block\linh-b\main.cpp
+	<iostream>
+	<SDL.h>
+	"renderer.h"
+
+1753890669 c:\code block\linh-b\board.h
+	<string>
+
+1753890669 source:c:\code block\linh-b\board.cpp
+	"Board.h"
+	<iostream>
+
+1753893049 c:\code block\linh-b\renderer.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1753896681 source:c:\code block\linh-b\renderer.cpp
+	"renderer.h"
+	<iostream>
+
+1753896574 c:\code block\linh-b\dictionary.h
+	<string>
+	<unordered_set>
+
+1753896574 source:c:\code block\linh-b\dictionary.cpp
+	"dictionary.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+
