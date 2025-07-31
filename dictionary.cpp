@@ -17,7 +17,6 @@ void Dictionary::loadFromFile(const string& filename) {
 
     string word;
     while (getline(file, word)) {
-        // Chuyển thành chữ thường
         transform(word.begin(), word.end(), word.begin(), ::tolower);
         words.insert(word);
     }
